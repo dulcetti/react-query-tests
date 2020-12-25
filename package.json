@@ -12,9 +12,9 @@
     "eject": "react-scripts eject",
     "start": "react-scripts start",
     "test": "react-scripts test",
-    "test:coverage": "jest --coverage --watchAll=false",
-    "test:watch": "jest --watch",
-    "test:watchAll": "jest --watchAll"
+    "test:coverage": "yarn test --coverage --watchAll=false",
+    "test:watch": "yarn test --watch",
+    "test:watchAll": "yarn test --watchAll"
   },
   "config": {
     "commitizen": {
@@ -24,7 +24,7 @@
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-push": "npm run affected:test"
+      "pre-push": "yarn test:coverage"
     }
   },
   "eslintConfig": {
