@@ -1,5 +1,5 @@
-.content {
+.button {
   font-size: calc(10px + 2vmin);
-  margin-bottom: 40px;
+  padding: 5px 10px;
   text-align: center;
 }

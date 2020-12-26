@@ -1,9 +1,12 @@
 import './styles.css';
+import Button from '../button';
 
 export default function Content() {
+  const contentMethod = () => console.info('Content');
+
   return (
     <main className='content'>
-      <button>Carregar dados</button>
+      <Button label='Update content state' method={contentMethod} />
     </main>
   );
 }

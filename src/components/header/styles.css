@@ -1,5 +1,4 @@
 .logo {
-  display: block;
   pointer-events: none;
 }
 
@@ -10,16 +9,9 @@
 }
 
 .header {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
   font-size: calc(10px + 2vmin);
-  justify-content: center;
+  margin-bottom: 40px;
   text-align: center;
-}
-
-.link {
-  color: #61dafb;
 }
 
 @keyframes logo-spin {
